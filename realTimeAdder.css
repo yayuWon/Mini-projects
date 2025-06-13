@@ -1,0 +1,51 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, San-serif;
+}
+.header1{
+  text-align: center;
+  margin: 35px 0;
+}
+.header2{
+  text-align: center;
+  margin: 35px 0;
+}
+.form-holder{
+  display: flex;
+  flex: 1;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.inputs{
+  height: 2rem;
+  width: 90%;
+  border-radius: 8px;
+  padding: 10px 5px;
+}
+.sum-holder-class{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 25px 0;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
