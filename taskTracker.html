@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Task Tracker SPA</title>
+  <link rel="stylesheet" href="./taskTracker.css">
+</head>
+<body>
+  <main class="main-holder">
+    <!--The header part-->
+    <header class="header-holder">
+      <h1 class="head1">Task Tracker</h1>
+      <button class="btn-holder close-btn">Close</button>
+    </header>
+    
+    <!--The first div part-->
+    <div class="div1 div-holder">
+      <form class="form-holder" action="/" method="post">
+        
+        <section class="section-task section-extra">
+          <label class="label-holder label1" for="input1">Task</label>
+          <input type="text" id="input1" placeholder="Add Task" class="task-input input-holder" />
+        </section>
+          
+        <section class="section-date section-extra">
+          <label class="label-holder label2" for="input2">Day & Time</label>
+          <input type="date" id="input2" placeholder="Add Day & Time" class="date-input input-holder" />
+        </section>
+        
+        <section class="section-checkbox">
+          <label class="label-holder label3" for="input3">Set Reminder</label>
+          <input type="checkbox" name="task1" id="input3" />
+        </section>
+        
+        <button class="btn-holder save-btn">Save Task</button>
+      </form>
+      
+    </div>
+    
+    <!--The second div part-->
+    <div class="div2 div-holder">
+      <section class="section-holder section1">
+        <h3 class="head3 header3-holder">Doctor's Appointment</h3>
+        <p class="day-holder-para para-holder">Feb 5th at 2:30pm</p>
+        <button class="x-btn x-btn-1">✖</button>
+      </section>
+      <section class="section-holder section2">
+        <h3 class="head3 header3-holder">Meeting at School</h3>
+        <p class="day-holder-para para-holder">Feb 8th at 1:30pm</p>
+        <button class="x-btn x-btn-2">✖</button>
+      </section>
+      <section class="section-holder section3">
+        <h3 class="head3 header3-holder">Dinner with Mom</h3>
+        <p class="day-holder-para para-holder">Feb 8th at 7:00pm</p>
+        <button class="x-btn x-btn-3">✖</button>
+      </section>
+    </div>
+    
+    <!--The footer part-->
+    <footer class="footer-holder">
+      <p>Copyright &copy; 2025</p>
+      <a href="/about">About</a>
+    </footer>
+    
+  </main>
+  <script src="./taskTracker.js"></script>
+</body>
+</html>
